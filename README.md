@@ -1,75 +1,24 @@
-# Nuxt 3 Minimal Starter
+# Super simple SSR website with Nuxt 3 and CloudFlare
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This repo is for programming newbies who want to create a simple SSR (Server Side Rendering) website (e.g. https://redditrecs.com ) with Nuxt 3 & CloudFlare.
 
-## Setup
+I wrote this because I was once that programming newbie, and I was tearing my hair out because:
+- Existing tutorials and documentations were overly complicated (for what I wanted to build)
+- AI coding assistants suck at Nuxt 3
 
-Make sure to install the dependencies:
+Hope this helps save someone’s hair!
 
-```bash
-# npm
-npm install
+## What you will build in this example walkthrough
+By the end of the tutorial, you will have a live website that looks like this: https://nuxt3-ssr-starter.pages.dev/
 
-# pnpm
-pnpm install
+The website is ugly as hell but that’s not the point.
 
-# yarn
-yarn install
+The point is to learn the basics through building, so you can build more complex website with the same underlying principles.
 
-# bun
-bun install
-```
+The website is actually a simplified version of https://redditrecs.com .
 
-## Development Server
+The shape of the website is that the content (list of portable monitors and their details) is generated from a data source via api, and then rendered on the server side.
 
-Start the development server on `http://localhost:3000`:
+## Walkthrough:
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+https://indienomad.life/posts/website-ssr-nuxt3-cloudflare/
