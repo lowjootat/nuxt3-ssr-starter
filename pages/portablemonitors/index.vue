@@ -1,5 +1,6 @@
 <template>
   <h1>Portable Monitors</h1>
+  <p>Click to view more details</p>
   <div v-for="monitor in monitors" :key="monitor.id">
     <NuxtLink :to="`/portablemonitors/monitor/${monitor.id}`">
       <div class="monitor">
